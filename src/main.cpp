@@ -26,6 +26,6 @@ void loop() {
   // print value to the USB port 
   Serial.println("Digitized Value of is " + String(iVal)+ " to a temperature input of "+ String(temp)+" deg. C, which is "+judgement); 
  
-  // wait 0.5 seconds (500 ms) 
-  delay(500);
+ 
+  delay(2000);
 }
